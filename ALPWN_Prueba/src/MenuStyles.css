@@ -1,0 +1,10 @@
+#menu1{
+    -fx-background-color: #999;
+}
+#boton{
+    -fx-background-color: #444444;
+    -fx-border-radius: 20px;
+    -fx-color: white;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
