@@ -54,12 +54,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="JavaFXApplication" />
         <option value="Kotlin Script" />
-        <option value="Kotlin File" />
+        <option value="Kotlin Object" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="FxmlFile" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -95,12 +97,13 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ALPWN_Prueba" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -220,14 +223,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1581970895026" />
-    <state x="474" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1582143092594">
+    <state x="474" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1583789778374">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="474" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582143092594" />
+    <state x="474" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583789778374" />
     <state x="406" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1581970721517">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="406" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1581970721517" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582242583950">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582242583950" />
     <state x="462" y="16" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1582130457361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -236,25 +243,61 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="226" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1582136035971" />
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1582044504284">
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1582310062324">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582044504284" />
-    <state width="1323" height="154" key="GridCell.Tab.0.bottom" timestamp="1582216718858">
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582310062324" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583811177067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582216718858" />
-    <state width="1323" height="154" key="GridCell.Tab.0.center" timestamp="1582216718858">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583811177067" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583811177067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582216718858" />
-    <state width="1323" height="154" key="GridCell.Tab.0.left" timestamp="1582216718858">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583811177067" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583811177067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582216718858" />
-    <state width="1323" height="154" key="GridCell.Tab.0.right" timestamp="1582216718858">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583811177067" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583811177067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582216718858" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583811177067" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1583273470285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583273470285" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1583273470285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583273470285" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1583273470285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583273470285" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1583273470285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583273470285" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1582922997246">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1582922997246" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1582842486829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582842486829" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1583770404164">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583770404164" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1582840399887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582840399887" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583774612801">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583774612801" />
   </component>
 </project>
